@@ -1,0 +1,5 @@
+togglz:
+  feature-enums: com.hainet.togglz.spring.boot.sample.Features
+  console:
+    use-management-port: false
+    secured: false

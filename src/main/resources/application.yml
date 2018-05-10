@@ -3,3 +3,13 @@ togglz:
   console:
     use-management-port: false
     secured: false
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:togglz-spring-boot-sample
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true

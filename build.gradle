@@ -26,9 +26,12 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
 
     compile("org.togglz:togglz-spring-boot-starter:2.5.0.Final")
     compile("org.togglz:togglz-console:2.5.0.Final")
+
+    compileOnly('com.h2database:h2:1.4.197')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

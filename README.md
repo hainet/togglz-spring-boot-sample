@@ -1,5 +1,15 @@
 # Togglz Spring Boot Sample
-## How to use togglz console.
+## Getting started
 1. Clone this app.
 1. Launch this app.
-1. Access to `http://localhost:8080/togglz-console`.
+
+That's it!
+
+## Check the feature!
+* Access to `http://localhost:8080/feature`.
+
+## How to use togglz console.
+* Access to `http://localhost:8080/togglz-console`.
+
+## How to check feature state.
+* Access to `http://localhost:8080/h2-console`.

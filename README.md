@@ -7,6 +7,8 @@ That's it!
 
 ## Check the feature!
 * Access to `http://localhost:8080/feature`.
+* Access to `http://localhost:8080/iphone`.
+* Access to `http://localhost:8080/android`.
 
 ## How to use togglz console.
 * Access to `http://localhost:8080/togglz-console`.

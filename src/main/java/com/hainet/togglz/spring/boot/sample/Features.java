@@ -7,6 +7,14 @@ import org.togglz.core.annotation.Label;
 public enum Features implements Feature {
 
     @EnabledByDefault
-    @Label("First feature.")
-    FEATURE
+    @Label("Some feature.")
+    FEATURE,
+
+    @SmartPhone
+    @Label("iPhone")
+    IPHONE,
+
+    @SmartPhone
+    @Label("Android")
+    ANDROID
 }
